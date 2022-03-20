@@ -73,7 +73,7 @@ a:active {
 }
 
 .background_image {
-  background-image: url("/background_image_header.jpg");
+  background-image: url("../images/background_image_header.jpg");
   background-size: cover;
 }
 

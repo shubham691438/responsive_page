@@ -1,17 +1,17 @@
 .grid_container {
-  -ms-grid-columns: auto auto auto;
-      grid-template-columns: auto auto auto;
   padding-right: 100px;
   padding-left: 42px;
   display: -ms-grid;
   display: grid;
   gap: 10px;
-  background-color: red;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  background-color: white;
 }
 
 .items {
   padding: 40px;
-  background-color: green;
+  background-color: blueviolet;
 }
 
 #item1 {
@@ -24,5 +24,25 @@
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-column: 1/4;
+}
+
+#item11 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: 5/2/span 2/ span 2;
+}
+
+#item16 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/span 2;
+}
+
+#item18 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/span 3;
 }
 /*# sourceMappingURL=grid.css.map */

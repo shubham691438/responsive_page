@@ -1,0 +1,22 @@
+.intro{
+    width : 100%;
+    display : flex;
+    flex-wrap: wrap-reverse;
+    position:relative;
+    justify-content: space-around;
+    z-index: 1;
+    padding-bottom: 145px;
+
+    
+    
+    &_text{
+        h1{
+        padding-top: 50px;
+        color:$DarkBlue1;
+         
+        }
+    }
+
+    
+
+}

@@ -1,19 +1,15 @@
 .footer{
-     margin-top: 20%;
-     background-color: blueviolet;
-    &_triangle{
-        transform: rotate(3deg) skewx(2deg) translateY(-85px);
-        content: '';
-        transform-origin: 0 0;
-        height: 150px;
-        display: block;
-        background-color: white;
-        width: 100%;
-    }
+    
+    margin-top: 20%;
+    background-color: blueviolet;
+    height:100%;
+    
 
     &_content{
         display:flex;
-        height: 250px;
+        flex-wrap: wrap;
+        padding-top: 3%;
+        padding-bottom: 5%;
         padding-right: 54px;
         padding-left: 42px;
 
@@ -21,52 +17,45 @@
     
     }
 
-    .footer_contact{
-        display:flex;
-        flex-direction: column;
-        margin-bottom: auto;
-        border-right: 1px solid white;
-        padding-right: 30px;
-
-        .contact{
-            padding-top: 35px;
-            display: flex;
-            flex-direction: column;
-        }
-
+    
+    
         
-
-    }
-    .footer_links{
-        padding-left: 35px;
+        
+    .fylo{
+        
         display:flex;
         justify-content: space-between;
         margin-bottom: auto;
-        border-right: 1px solid white;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .company{
         
-            .fylo{
-                display:flex;
-                flex-direction: column;
-                align-items: center;
-            }
-            .company{
-                display:flex;
-                flex-direction: column;
-                align-items: center;
+        display:flex;
+        justify-content: space-between;
+        margin-bottom: auto;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
 
-            }
-            .support{
-                display:flex;
-                flex-direction: column;
-                align-items: center;
-            }    
+    }
+    .support{
+        
+        display:flex;
+        justify-content: space-between;
+        margin-bottom: auto;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }    
 
 
 
            
 
-    }
-    &_form{
+    
+    .footer_form{
         padding-left: 40px;
         display:flex;
         flex-direction: column;
@@ -116,6 +105,12 @@
         color: lightgrey;
     }
     
+}
+input[type="email"]{
+    font-size: 1.5rem;
+    width: 33%;
+
+}   
     
     @media screen and (max-width: 800px)
     {
@@ -124,5 +119,5 @@
         }
     }
 
-}
+
 

@@ -4,7 +4,6 @@
     flex-wrap: wrap-reverse;
     position:relative;
     justify-content: space-around;
-    z-index: 1;
     padding-bottom: 145px;
 
     
@@ -16,7 +15,16 @@
          
         }
     }
+}
 
-    
+@media only screen and (max-width:320px){
+    .intro{
+        padding-bottom: 30px;
+    }
+
+    .intro_text h1{
+        padding-top: 13px ;
+        font-size: 1.2rem;
+    }
 
 }

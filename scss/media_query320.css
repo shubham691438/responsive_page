@@ -1,7 +1,7 @@
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 320px) {
   .grid_container {
     padding-right: 100px;
-    padding-left: 42px;
+    padding-left: 5%;
     display: -ms-grid;
     display: grid;
     gap: 10px;
@@ -24,5 +24,12 @@
     -ms-grid-column-span: 3;
     grid-column: 1/span 3;
   }
+  .title span {
+    font-size: 50px;
+  }
+  .logo {
+    height: 0px;
+    width: 0px;
+  }
 }
-/*# sourceMappingURL=responsive.css.map */
+/*# sourceMappingURL=media_query320.css.map */

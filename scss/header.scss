@@ -1,13 +1,18 @@
 header{
     padding-right: 100px;
-    padding-left: 42px;
+    padding-left: 5%;
     padding-top: 70px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     height: 195px;
 }
-
+@media only screen and (max-width: 320px){
+    header{
+        padding-top:20px;
+        height:75px;
+    }
+}
 
 
 

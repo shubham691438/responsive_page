@@ -1,6 +1,6 @@
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 400px) {
   .grid_container {
-    padding-right: 100px;
+    padding-right: 5%;
     padding-left: 5%;
     display: -ms-grid;
     display: grid;

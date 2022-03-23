@@ -13,13 +13,6 @@ header {
   height: 195px;
 }
 
-@media only screen and (max-width: 400px) {
-  header {
-    padding-top: 20px;
-    height: 75px;
-  }
-}
-
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -79,7 +72,7 @@ a:active {
   font-size: 108px;
 }
 
-.background_image {
+#background_image, .background_image {
   background-image: url("../images/background_image_header.jpg");
   background-size: cover;
 }
@@ -88,6 +81,34 @@ a:active {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   height: 0px;
+}
+
+@media only screen and (max-width: 720px) {
+  header {
+    padding-top: 20px;
+    height: 140px;
+  }
+  .title span {
+    font-size: 70px;
+  }
+  .logo {
+    height: 0px;
+    width: 0px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  header {
+    padding-top: 20px;
+    height: 75px;
+  }
+  .title span {
+    font-size: 50px;
+  }
+  .logo {
+    height: 0px;
+    width: 0px;
+  }
 }
 
 .intro {
@@ -389,6 +410,15 @@ input[type="email"] {
   color: black;
 }
 
+@media only screen and (max-width: 720px) {
+  .open_nav {
+    margin-left: 7%;
+    margin-top: -8%;
+    height: 50px;
+    width: 50px;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   .open_nav {
     margin-left: 205px;
@@ -471,13 +501,6 @@ input[type="email"] {
     -ms-grid-column: 1;
     -ms-grid-column-span: 3;
     grid-column: 1/span 3;
-  }
-  .title span {
-    font-size: 50px;
-  }
-  .logo {
-    height: 0px;
-    width: 0px;
   }
 }
 /*# sourceMappingURL=style.css.map */

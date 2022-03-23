@@ -69,10 +69,11 @@ a:active{
 
 
 //helper class
-.background_image{
+#background_image,.background_image{
     background-image: url('../images/background_image_header.jpg');
     background-size: cover;
 }
+
 
 
 
@@ -81,3 +82,38 @@ a:active{
     height:0px;
 }
 
+
+//media queries
+@media only screen and (max-width: 720px){
+    header{
+        padding-top:20px;
+        height:140px;
+    }
+
+    .title span{
+        font-size: 70px;
+    }
+    
+    .logo{
+        height: 0px;
+        width: 0px;
+
+    }
+}
+
+@media only screen and (max-width: 400px){
+    header{
+        padding-top:20px;
+        height:75px;
+    }
+
+    .title span{
+        font-size: 50px;
+    }
+    
+    .logo{
+        height: 0px;
+        width: 0px;
+
+    }
+}

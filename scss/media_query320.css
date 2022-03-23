@@ -24,12 +24,5 @@
     -ms-grid-column-span: 3;
     grid-column: 1/span 3;
   }
-  .title span {
-    font-size: 50px;
-  }
-  .logo {
-    height: 0px;
-    width: 0px;
-  }
 }
 /*# sourceMappingURL=media_query320.css.map */

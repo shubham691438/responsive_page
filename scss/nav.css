@@ -37,6 +37,15 @@
   color: black;
 }
 
+@media only screen and (max-width: 720px) {
+  .open_nav {
+    margin-left: 7%;
+    margin-top: -8%;
+    height: 50px;
+    width: 50px;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   .open_nav {
     margin-left: 205px;
